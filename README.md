@@ -24,7 +24,7 @@ A real-time sentiment analysis tool that detects emotions in text using state-of
 
 ## 🚀 Live Demo
 
-[Your application is live on Hugging Face Spaces!]
+https://huggingface.co/spaces/SabaBashir/sentiment-analyzer
 
 ## 🛠️ Usage
 
