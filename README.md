@@ -1,3 +1,14 @@
+---
+title: Sentiment Analyzer
+emoji: 🧠
+colorFrom: blue
+colorTo: purple
+sdk: docker
+sdk_version: "4.22.0"
+app_file: app.py
+pinned: false
+---
+
 # 🧠 AI Sentiment Analyzer
 
 A real-time sentiment analysis tool that detects emotions in text using state-of-the-art transformer models.
@@ -12,7 +23,7 @@ A real-time sentiment analysis tool that detects emotions in text using state-of
 
 ## 🚀 Live Demo
 
-[Your Hugging Face Space Link]
+[Your application is live on Hugging Face Spaces!]
 
 ## 🛠️ Usage
 
@@ -26,3 +37,14 @@ A real-time sentiment analysis tool that detects emotions in text using state-of
 - Social media monitoring
 - Feedback sentiment tracking
 - Market research
+
+## 🔧 Technology Stack
+
+- **Backend**: FastAPI, PyTorch, Hugging Face Transformers
+- **Frontend**: HTML5, Bootstrap 5, JavaScript
+- **Model**: RoBERTa-base for sentiment analysis
+- **Deployment**: Hugging Face Spaces
+
+---
+
+**Made with ❤️ by [Saba Bashir](https://huggingface.co/SabaBashir)**
