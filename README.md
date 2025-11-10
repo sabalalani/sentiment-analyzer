@@ -9,7 +9,6 @@ app_file: app.py
 pinned: false
 ---
 
-
 # 🧠 AI Sentiment Analyzer
 
 A real-time sentiment analysis tool that detects emotions in text using state-of-the-art transformer models.
@@ -17,10 +16,10 @@ A real-time sentiment analysis tool that detects emotions in text using state-of
 ## 🌟 Features
 
 - **Real-time Analysis**: Instant sentiment detection
-- **Multiple Models**: Support for different transformer models
-- **Confidence Scores**: Visual confidence indicators
-- **Responsive UI**: Beautiful Bootstrap interface
+- **Confidence Scores**: Visual confidence indicators  
+- **Responsive UI**: Beautiful Gradio interface
 - **Example Texts**: Pre-loaded examples for testing
+- **Multiple Sentiment Classes**: Positive, Negative, and Neutral detection
 
 ## 🚀 Live Demo
 
@@ -41,10 +40,15 @@ https://huggingface.co/spaces/SabaBashir/sentiment-analyzer
 
 ## 🔧 Technology Stack
 
-- **Backend**: FastAPI, PyTorch, Hugging Face Transformers
-- **Frontend**: HTML5, Bootstrap 5, JavaScript
-- **Model**: RoBERTa-base for sentiment analysis
+- **Framework**: Gradio 4.19.2
+- **AI Model**: DistilBERT-base-uncased (Hugging Face Transformers)
+- **Backend**: Python, PyTorch
 - **Deployment**: Hugging Face Spaces
+- **Model Task**: Sentiment Analysis
+
+## 🤖 About the Model
+
+This tool uses **DistilBERT-base-uncased-finetuned-sst-2-english** - a lightweight transformer model fine-tuned on the Stanford Sentiment Treebank dataset. It provides fast and accurate sentiment classification for English text.
 
 ---
 
